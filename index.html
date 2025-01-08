@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovCinema</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container"><h1 class="logo">MovCinema</h1></div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trending</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="img/profile.png">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fa-solid fa-chevron-down profile-switch"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fa-regular fa-moon toggle-icon"></i>
+                    <i class="fa-regular fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fa-solid fa-magnifying-glass"></i>
+        <i class="left-menu-icon fa-solid fa-house"></i>
+        <i class="left-menu-icon fa-solid fa-users"></i>
+        <i class="left-menu-icon fa-solid fa-bookmark"></i>
+        <i class="left-menu-icon fa-solid fa-tv"></i>
+        <i class="left-menu-icon fa-solid fa-hourglass-start"></i>
+        <i class="left-menu-icon fa-solid fa-cart-shopping"></i>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="img/f-t-1.png" alt="">
+                <p class="featured-desc">Django, an African slave, 
+                    is freed by a German bounty hunter and becomes 
+                    his apprentice. Together, they attempt to rescue 
+                    his wife, who has been enslaved by a charming but 
+                    cruel plantation owner.</p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">New Releases</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.png" alt="">
+                            <span class="movie-list-item-title">Nosferatu</span>
+                            <p class="movie-list-item-desc">
+                                A gothic tale of obsession between a haunted 
+                                young woman and the terrifying vampire infatuated 
+                                with her, causing untold horror.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.png" alt="">
+                            <span class="movie-list-item-title">Kraven</span>
+                            <p class="movie-list-item-desc">
+                                Kraven's complex relationship with his ruthless 
+                                father starts him down a path of vengeance, motivating 
+                                him to become the greatest hunter in the world.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.png" alt="">
+                            <span class="movie-list-item-title">Wolfs</span>
+                            <p class="movie-list-item-desc">
+                                Hired to cover up a high-profile crime, a fixer 
+                                soon finds his night spiralling out of control when 
+                                he's forced to work with an unexpected counterpart.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.png" alt="">
+                            <span class="movie-list-item-title">Fall Guy</span>
+                            <p class="movie-list-item-desc">
+                                A stuntman, fresh off an almost career-ending accident, 
+                                has to track down a missing movie star, solve a conspiracy 
+                                and try to win back the love of his life.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.png" alt="">
+                            <span class="movie-list-item-title">Furiosa</span>
+                            <p class="movie-list-item-desc">
+                                The origin story of renegade warrior Furiosa 
+                                before her encounter and teamup with Mad Max.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.png" alt="">
+                            <span class="movie-list-item-title">Dune - 2</span>
+                            <p class="movie-list-item-desc">
+                                A noble family becomes embroiled in a war for control 
+                                over the galaxy's most valuable asset while its heir 
+                                becomes troubled by visions of a dark future.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.png" alt="">
+                            <span class="movie-list-item-title">Longlegs</span>
+                            <p class="movie-list-item-desc">
+                                In pursuit of a serial killer, an FBI agent uncovers 
+                                a series of occult clues that she must solve to 
+                                end his terrifying killing spree.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.png" alt="">
+                            <span class="movie-list-item-title">Heretic</span>
+                            <p class="movie-list-item-desc">
+                                Two young missionaries are forced to prove their 
+                                faith when they knock on the wrong door and are 
+                                greeted by a diabolical Mr. Reed.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Trending</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.png" alt="">
+                            <span class="movie-list-item-title">Venom 3</span>
+                            <p class="movie-list-item-desc">
+                                Eddie and Venom are on the run. Hunted by both of 
+                                their worlds and with the net closing in, the duo 
+                                are forced into a devastating decision.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.png" alt="">
+                            <span class="movie-list-item-title">Joker 2</span>
+                            <p class="movie-list-item-desc">
+                                While struggling with his dual identity, Arthur Fleck 
+                                not only stumbles upon true love, but also finds the 
+                                music that's always been inside him.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.png" alt="">
+                            <span class="movie-list-item-title">Megalopolis</span>
+                            <p class="movie-list-item-desc">
+                                The city of New Rome faces the duel between Cesar Catilina, 
+                                a brilliant artist in favor of an Utopian future, 
+                                and the greedy mayor Franklyn Cicero.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.png" alt="">
+                            <span class="movie-list-item-title">Red One</span>
+                            <p class="movie-list-item-desc">
+                                After Santa Claus is kidnapped, the North Pole Head of 
+                                Security must team up with the world most infamous tracker 
+                                in a globe-trotting, action-packed mission to save Christmas.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.png" alt="">
+                            <span class="movie-list-item-title">Mufasa</span>
+                            <p class="movie-list-item-desc">
+                                Lost and alone, orphaned cub Mufasa meets a sympathetic 
+                                lion named Taka, the heir to a royal bloodline.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.png" alt="">
+                            <span class="movie-list-item-title">Bad Boys</span>
+                            <p class="movie-list-item-desc">
+                                When their late police captain gets linked to drug cartels, 
+                                wisecracking Miami cops Mike Lowrey and Marcus Burnett 
+                                embark on a dangerous mission to clear his name.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.png" alt="">
+                            <span class="movie-list-item-title">Alien Romulus</span>
+                            <p class="movie-list-item-desc">
+                                Space colonizers come face to face with the most terrifying 
+                                life-form in the universe while scavenging the deep ends 
+                                of a derelict space station.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/16.png" alt="">
+                            <span class="movie-list-item-title">Twisters</span>
+                            <p class="movie-list-item-desc">
+                                Kate Carter, a retired tornado-chaser and meteorologist, 
+                                is persuaded to return to Oklahoma to work with a 
+                                new team and new technologies.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content" style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">
+                    A family saga with a supernatural twist, 
+                    set in a German town where the disappearance of 
+                    two young children exposes the relationships 
+                    among four families.
+                </p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Top Shows for You</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/17.png" alt="">
+                            <span class="movie-list-item-title">Penguin</span>
+                            <p class="movie-list-item-desc">
+                                The transformation of Oz Cobb from a 
+                                disfigured nobody to a noted Gotham gangster.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/18.png" alt="">
+                            <span class="movie-list-item-title">Breaking Bad</span>
+                            <p class="movie-list-item-desc">
+                                A chemistry teacher, discovers that he has cancer and 
+                                decides to get into the meth-making business to repay 
+                                his medical debts.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/19.png" alt="">
+                            <span class="movie-list-item-title">Flash</span>
+                            <p class="movie-list-item-desc">
+                                Barry Allen, a forensic investigator in Central City, 
+                                gains the power of superhuman speed from a freak accident.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/20.png" alt="">
+                            <span class="movie-list-item-title">Stranger Things</span>
+                            <p class="movie-list-item-desc">
+                                A group of young friends witness supernatural forces and 
+                                secret government exploits. As they search for answers, 
+                                the children unravel a series of extraordinary mysteries.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/21.png" alt="">
+                            <span class="movie-list-item-title">Sherlock</span>
+                            <p class="movie-list-item-desc">
+                                Dr Watson, a former army doctor, finds himself sharing 
+                                a flat with Sherlock Holmes, an eccentric individual 
+                                with a knack for solving crimes.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/22.png" alt="">
+                            <span class="movie-list-item-title">The Boys</span>
+                            <p class="movie-list-item-desc">
+                                When a Supe kills the love of his life, A/V salesman 
+                                Hughie Campbell teams up with Billy Butcher, a 
+                                vigilante hell-bent on punishing corrupt Supes.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/23.png" alt="">
+                            <span class="movie-list-item-title">Peaky Blinders</span>
+                            <p class="movie-list-item-desc">
+                                A gangster family epic set in 1900s England, centering on 
+                                a gang who sew razor blades in the peaks of their caps, 
+                                and their fierce boss Tommy Shelby.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/24.png" alt="">
+                            <span class="movie-list-item-title">Money Heist</span>
+                            <p class="movie-list-item-desc">
+                                When the national mint and a touring school group 
+                                are held hostage by robbers, police believe that the 
+                                thieves have no way out. Little do they know that the 
+                                thieves bigger plan.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">Top Rated</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/25.png" alt="">
+                            <span class="movie-list-item-title">The Godfather</span>
+                            <p class="movie-list-item-desc">
+                                Don Vito Corleone, head of a mafia family, decides 
+                                to hand over his empire to his youngest son, Michael.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/26.png" alt="">
+                            <span class="movie-list-item-title">12 Angry Men</span>
+                            <p class="movie-list-item-desc">
+                                An eighteen-year-old Latino is accused of having 
+                                stabbed his father to death. He is presented in a 
+                                courtroom before a twelve-man jury.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/27.png" alt="">
+                            <span class="movie-list-item-title">Schindler's List</span>
+                            <p class="movie-list-item-desc">
+                                Oscar Schindler slowly starts worrying about the safety of 
+                                his Jewish workforce after witnessing their persecution 
+                                in Poland during World War II.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/28.png" alt="">
+                            <span class="movie-list-item-title">Forrest Gump</span>
+                            <p class="movie-list-item-desc">
+                                Forrest, a man with low IQ, recounts the early years 
+                                of his life when he found himself in the middle of key 
+                                historical events.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/29.png" alt="">
+                            <span class="movie-list-item-title">Fight Club</span>
+                            <p class="movie-list-item-desc">
+                                An insomniac office worker and a devil-may-care 
+                                soap maker form an underground fight club that 
+                                evolves into much more.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/30.png" alt="">
+                            <span class="movie-list-item-title">Goodfellas</span>
+                            <p class="movie-list-item-desc">
+                                The story of Henry Hill and his life in the mafia, 
+                                covering his relationship with his wife Karen and his 
+                                mob partners Jimmy Conway and Tommy DeVito.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/31.png" alt="">
+                            <span class="movie-list-item-title">Se7en</span>
+                            <p class="movie-list-item-desc">
+                                Two detectives, a rookie and a veteran, hunt a serial 
+                                killer who uses the seven deadly sins as his motives.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/32.png" alt="">
+                            <span class="movie-list-item-title">The Pianist</span>
+                            <p class="movie-list-item-desc">
+                                Acclaimed Polish musician Wladyslaw faces various 
+                                struggles as he loses contact with his family.
+                            </p>
+                            <button class="movie-list-item-button">WATCH</button>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
